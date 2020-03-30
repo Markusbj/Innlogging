@@ -3,7 +3,6 @@
         <h3 class="card-header text-center">Registrerings side</h3>
         <div class="card-body">
             <div id="creationForm">
-            <validator name="validator">
             <form @submit="checkForm">
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -49,7 +48,6 @@
                 <p v-else-if="uiState === 'form submitted'" class="success">Gjennomført</p>
                 </section>
                 </form>
-            </validator>
             </div>
         </div>
     </div>
